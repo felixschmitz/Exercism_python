@@ -1,8 +1,13 @@
+import random
+
+
 def two_fer(name):
-    if name is None:
+    if name == ' ':
         print('One for you, one for me.')
     else:
-        print('One for ' + x + ', one for me.')
+        print('One for ' + name + ', one for me.')
     pass
 
-two_fer(Anna)
+names = ['Alice', 'Bob', 'Zaphod', ' ']
+argument = random.choice(names)
+two_fer(argument)
