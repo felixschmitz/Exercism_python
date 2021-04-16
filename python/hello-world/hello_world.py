@@ -1,5 +1,2 @@
 def hello():
-    print('Hello, World!')
-    pass
-    
-hello()
+    return 'Hello, World!'
